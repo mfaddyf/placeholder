@@ -15,13 +15,14 @@ general/accessibility_support=2
 [application]
 
 config/name="game"
-run/main_scene="uid://5dk0f0cnf442"
+run/main_scene="uid://ya4a3n758odh"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [autoload]
 
 Dialogic="*uid://ds2q0uclmolvu"
+GameManager="*uid://dm7741au4pstk"
 
 [dialogic]
 

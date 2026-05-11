@@ -1,4 +1,4 @@
 extends Node
 
-func _ready() -> void:
+func _ready():
 	Dialogic.start("res://timeline.dtl")
