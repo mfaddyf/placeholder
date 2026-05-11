@@ -1,4 +1,2 @@
-alex: did you hear from jamie recently?
-sall: no, not since last week. you?
-alex: nah. probably just overthinking it...
-sall: ...yeah. probably.
+[text_input text="Your name..." var="PlayerName" placeholder="..."]
+{PlayerName}... Interesting...

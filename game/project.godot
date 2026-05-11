@@ -26,10 +26,7 @@ GameManager="*uid://dm7741au4pstk"
 
 [dialogic]
 
-directories/dch_directory={
-"alex": "res://alex.dch",
-"sall": "res://sall.dch"
-}
+directories/dch_directory={}
 directories/dtl_directory={
 "timeline": "res://timeline.dtl"
 }
@@ -40,7 +37,9 @@ layout/style_directory={
 glossary/default_case_sensitive=true
 layout/style_list=["res://New_File.tres"]
 layout/default_style="res://New_File.tres"
-variables={}
+variables={
+"PlayerName": ""
+}
 text/letter_speed=0.01
 text/initial_text_reveal_skippable=true
 text/text_reveal_skip_delay=0.1
