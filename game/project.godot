@@ -31,14 +31,17 @@ directories/dtl_directory={
 "timeline": "res://timeline.dtl"
 }
 layout/style_directory={
-"": "res://New_File.tres",
-"New_File": "res://New_File.tres"
+"": "res://vn_style.tres",
+"vn_style": "res://vn_style.tres"
 }
 glossary/default_case_sensitive=true
-layout/style_list=["res://New_File.tres"]
-layout/default_style="res://New_File.tres"
+layout/style_list=["res://vn_style.tres"]
+layout/default_style="res://vn_style.tres"
 variables={
-"PlayerName": ""
+"PlayerName": "",
+"PlayerPrnObject": "",
+"PlayerPrnPossessive": "",
+"PlayerPrnSubject": ""
 }
 text/letter_speed=0.01
 text/initial_text_reveal_skippable=true

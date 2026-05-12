@@ -1,2 +1,36 @@
-[text_input text="Your name..." var="PlayerName" placeholder="..."]
-{PlayerName}... Interesting...
+[style name="vn_style"]
+i used to have friends, you know.
+a whole group of us. we had this spot we'd meet at.
+it doesn't matter where. you'll be seeing it soon enough
+we thought we'd be close forever. people always think that.
+i believed it more than any of them.
+probably why it hurt more than it should have.
+[wait time="1.0"]
+i'm not telling you this for sympathy. i outgrew sympathy a long time ago.
+i'm telling you because you should understand something before this all begins.
+everything you're about to see is true.
+...
+...you're going to be here a while, aren't you?
+at least i should know what to call you.
+[text_input text="your name:" var="PlayerName" placeholder="..."]
+and... how should i refer to you?
+- he/him
+    set {PlayerPrnSubject} = "he"
+    set {PlayerPrnObject} = "him"
+    set {PlayerPrnPossessive} = "his"
+- she/her
+    set {PlayerPrnSubject} = "she"
+    set {PlayerPrnObject} = "her"
+    set {PlayerPrnPossessive} = "her"
+- they/them
+    set {PlayerPrnSubject} = "they"
+    set {PlayerPrnObject} = "them"
+    set {PlayerPrnPossessive} = "their"
+noted.
+{PlayerName}... {PlayerPrnSubject}... right.
+i'll remember that well.
+[wait time="1.0"]
+\don't worry. i can't hurt you. you are just watching, after all.
+safe on the other side.
+[wait time="0.5"]
+for now.
