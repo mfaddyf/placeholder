@@ -11,4 +11,5 @@ func _on_timeline_ended() -> void:
 	GameManager.prn_object = Dialogic.VAR.PlayerPrnObject
 	GameManager.prn_possessive = Dialogic.VAR.PlayerPrnPossessive
 	
+	# debugging saving
 	print("Saved: ", GameManager.player_name, " ", GameManager.prn_subject)
